@@ -1,6 +1,7 @@
 import LinkedList from './linked-list.js';
 
 const list = new LinkedList();
+window.list = list; // I think this allows me to actually access the list in the browser console
 
 // First Test
 /* list.append("dog");
